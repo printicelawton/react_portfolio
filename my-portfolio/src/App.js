@@ -22,8 +22,8 @@ class App extends React.Component {
       ], 
       home: { 
         title: 'Digital Transformation', 
-        subTitle: 'Something about Projects or me',
-        text: 'Something else about content below',  
+        subTitle: 'Let\'s transform your busines',
+        text: 'Click on images to view my projects',  
       }, 
       about: {
         title: 'About Me',
