@@ -5,10 +5,10 @@ import Col from 'react-bootstrap/Col';
 
 function Content(props) {
     return (
-        <Container>
-            <Row>
+        <Container fluid={true}>
+            <Row className="justify-content-center">
                 <Col>
-                
+                    {props.children}
                 </Col>
             </Row>
         </Container>
