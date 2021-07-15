@@ -10,29 +10,28 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage'; 
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       title: 'Printice Lawton', 
       headerLinks: [
-        { title: 'Home', path: '/'},
-        { title: 'About', path: '/about'}, 
-        { title: 'Contact', path: '/contact'}
+        { title: 'Home', path: '/' },
+        { title: 'About', path: '/about' }, 
+        { title: 'Contact', path: '/contact' },
       ], 
-      home:{ 
-        title:'Digital Transformation', 
+      home: { 
+        title: 'Digital Transformation', 
         subTitle: 'Something about Projects or me',
-        text: 'Something else about content below'  
-       }, 
-       about: {
-         title: 'About Me'
-       },
-       contact: {
-         title: 'Let\'s Talk'
-       }
-    }
+        text: 'Something else about content below',  
+      }, 
+      about: {
+        title: 'About Me',
+      },
+      contact: {
+        title: 'Let\'s Talk',
+      },
+    };
   }
 
   render() {
